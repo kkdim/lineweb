@@ -1,0 +1,366 @@
+/* CSS Document */
+
+
+body {
+	background-image: url(img/background.png);
+}
+
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+
+	color: #4b4b4b;
+}
+
+/*-------------WRAPPER-------------*/
+
+
+#wrapper #nav ul {	
+
+	padding: 33px;
+	list-style: none;
+	float: left;
+	margin: 0;
+	width: 800px;
+} 
+
+#wrapper #nav ul li {
+
+	padding: 30px;
+	width: 100px;
+	display: inline;
+}
+
+
+#wrapper {
+
+	background-color: #ffffff;
+	width: 1200px;
+	margin: 30px auto;
+	overflow: hidden;
+}
+
+
+/*-------------NAVIGACIJA-------------*/
+
+#nav { 
+
+	width: 1200px;
+	background-color: #921113;
+	overflow: hidden;
+}
+
+#logo {
+
+	width: 240px;
+	margin:0 0 0 0;
+	border-right: solid 1px #e3e3e3;
+	float: left;
+}
+
+/*-------------BIG LOGO-------------*/
+
+#over	{
+
+	background-color:  #e3e3e3;
+	padding-top: 3px;
+	position: relative;
+}
+
+ #overlog {
+
+	width: 100px;
+	height: 177px;
+	position: absolute;
+	bottom: 0px;
+    right: 300px;
+}
+
+/*-------------MAIN(weare, contact, news)-------------*/
+
+#main {
+
+	padding-left: 15px;
+	padding-top: 10px;
+	float: left;
+	width: 785px;
+}
+
+/*-------------WEARE-------------*/
+
+#weare img {
+
+	padding-top: 20px;
+	float: right;
+	width: 330px;
+	height: 200px;	
+}
+
+#weare  h1 {
+
+	margin-bottom: 0px;
+}
+
+#weare p {
+
+	padding-top: 5px;
+	float: left;
+	width: 450px;
+}
+
+#weare div {
+
+	border-top: solid 5px #921113;
+}
+
+/*-------------CONTACT-------------*/
+
+#contact {
+
+	float: left;
+}
+
+#contact h1 {
+
+	margin-bottom: 0px;
+}
+
+#contact div {
+
+	border-top: solid 5px #921113;
+}
+
+/*-------------NEWS-------------*/
+
+#news	{
+
+	float: left;
+}
+
+#news h1 {
+
+	margin-bottom: 0px;	
+}
+
+#news h2 {
+
+	color: #999999;
+	margin: 0;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#both	{
+
+	border-bottom: solid 5px #921113;
+}
+
+/*NEWS LEFT DIV*/
+
+#left	{
+
+	padding-right: 10px;	
+	width: 385px;
+	float: left;
+}
+
+
+#news #both #left  {
+
+    padding-top: 20px;
+		
+}
+
+#news #both #left img {
+
+	width: 200px;
+	height: 220px;
+	padding-top: 4px;
+	padding-right: 10px;
+	float: left;
+}
+
+#news #both #left p{
+
+	margin-top: 2px;
+}
+
+/*NEWS RIGHT DIV*/
+
+
+#right	{
+
+	padding-left: 10px;
+	width: 380px;
+	float: right;
+}
+
+#news #both #right {
+
+	padding-top: 20px;
+}
+
+#news #both #right img {
+
+	width: 200px;
+	height: 220px;
+	padding-top: 4px;
+	padding-right: 10px;
+	float: left;
+}
+
+#news #both #right p{
+
+	margin-top: 2px;
+}
+
+/*-------------SIDEBAR-------------*/
+
+#sidebar {
+
+	background-color: #e3e3e3;
+	padding: 10px;
+	width: 365px;
+	float: right;
+}
+
+/*SIDEBAR INFO*/
+
+#sidebar #info h1 {
+
+	margin-bottom: 0px;
+}
+
+#sidebar #info p {
+
+	border-top: solid 3px #999999;
+	padding-top: 15px;
+    margin-top: 0px;
+}
+
+/*SIDEBAR TAGS*/
+
+#sidebar #tags h1 {
+
+	border-bottom: solid 3px #999999;
+}
+
+#sidebar ul {
+
+    list-style: none;
+    padding-left: 0px;
+}
+
+#sidebar ul li {
+	padding: 0px 0px 20px 5px;
+	float: left; 
+}
+
+#sidebar #tags img {
+
+	padding-left: 33px;
+    padding-top: 15px;
+}
+
+
+/*-------------FOOTER-------------*/
+
+#footer {
+
+	clear: both;	
+	border-top: solid 4px #e3e3e3;
+	text-align: center;
+}
+
+/*-------------LINKS-------------*/
+
+/*LINKS NAV*/
+#nav ul a:link {
+ 	color: #ffffff;
+ 	text-decoration: none;
+}
+
+#nav ul a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#nav ul a:hover {
+	color: #999999;
+	text-decoration: none;
+}
+#nav ul a:active {
+    color: #ffffff;
+    text-decoration: none;
+ }   
+
+/*LINKS MAIN*/
+
+#main a:link {
+ 	color: #d51316;
+ 	text-decoration: none;
+}
+
+#main a:visited {
+	color: #d51316;
+	text-decoration: none;
+}
+
+#main a:hover {
+	color: #999999;
+	text-decoration: none;
+}
+#main a:active {
+    color: #404040;
+    text-decoration: none;
+}
+/*LINKS SIDEBAR INFO*/
+
+#sidebar #info a:link {
+ 	color: #d51316;
+ 	text-decoration: none;
+}
+
+#sidebar #info a:visited {
+	color: #d51316;
+	text-decoration: none;
+}
+
+#sidebar #info a:hover {
+	color: #999999;
+	text-decoration: none;
+}
+#sidebar #info a:active {
+    color: #404040;
+    text-decoration: none;
+}
+
+/*LINKS SIDEBAR TAGS*/
+
+#sidebar #tags ul li a:link {
+	padding: 5px;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #999999;
+}
+
+#sidebar #tags ul li a:visited {
+	padding: 5px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#sidebar #tags ul li a:hover {
+	padding: 5px;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #c51417;
+}
+
+#sidebar #tags ul li a:active {
+	padding: 5px;
+	text-decoration: none;
+	color: #ffffff;
+}
